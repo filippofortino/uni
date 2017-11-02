@@ -32,7 +32,7 @@ int main(int argc, char const *argv[]) {
 }
 
 int cercaIndice(int v[], int len) {
-    int max = 0, pos = 0;
+    int max = v[0], pos = 0;
     for(int i = 0; i < len; i++) {
         if(max < v[i]) {
             max = v[i];
