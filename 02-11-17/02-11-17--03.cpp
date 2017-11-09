@@ -48,6 +48,6 @@ int main(int argc, char const *argv[]) {
     for(int i = 0; i < dim; i++)
         cout << results[i] << endl;;
 
-
+    delete[] results;
     return 0;
 }
