@@ -46,5 +46,6 @@ int main(int argc, char const *argv[]) {
         cout << endl;
     }
 
+    free(res);
     return 0;
 }
