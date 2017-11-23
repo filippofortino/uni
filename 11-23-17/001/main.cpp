@@ -9,8 +9,6 @@
  * @author Filippo Fortino
  */
 
- // Aldo è gay
-
 #include <iostream>
 #include "lib/iscrizione/iscrizione.h"
 
