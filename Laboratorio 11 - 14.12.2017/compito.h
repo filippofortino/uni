@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 enum stato {Aperta, Chiusa};
 
 class Palazzo{
